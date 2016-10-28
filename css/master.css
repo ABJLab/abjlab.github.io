@@ -1,0 +1,40 @@
+body{
+  background-color: #FAFAFA;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Roboto';
+}
+
+.container{
+  max-width: 980px;
+}
+
+.team{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+
+.team-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.team-item--info{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-item--info a{
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: center;
+  margin-left: 10px;
+}
